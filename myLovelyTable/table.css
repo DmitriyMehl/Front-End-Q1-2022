@@ -1,0 +1,36 @@
+p {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+table{
+  font-size: 50px;
+}
+
+td{
+  padding: 10px 20px;
+  margin: 10px;
+  border: 3px tomato double;
+  border-radius: 50%;
+}
+.first-line{
+  background-color: bisque;
+}
+.second-line{
+  background-color: tomato;
+  /* color: white; */
+}
+.third-line{
+  background-color: black;
+  color: white;
+}
+
+.primary{ 
+  /* primary = blue, 
+  secondary = yellow, info = green, danger = red, important = gold */
+  background-color: red;
+}
+
+.font-white{
+  color: white;
+}
