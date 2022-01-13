@@ -1,10 +1,10 @@
 p {
-  font-size: 60px;
+  /* font-size: 60px; */
   font-weight: bold;
 }
 
 table{
-  font-size: 50px;
+  /* font-size: 50px; */
 }
 
 td{
@@ -33,4 +33,8 @@ td{
 
 .font-white{
   color: white;
+}
+
+.font-big{
+  font-size: 60px;
 }
