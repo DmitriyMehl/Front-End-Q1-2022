@@ -1,0 +1,28 @@
+body {
+  font-size: 5rem;
+}
+
+.button {
+  color: white;
+  /* background-color: blue; */
+}
+
+a {
+  background-color: purple;
+}
+
+#linkID {
+  background-color: brown;
+}
+
+#nav a#linkID.button {
+  background-color: aqua;
+}
+
+#nav a#linkID {
+  background-color: pink;
+}
+
+#nav a#linkID.button:hover {
+  background-color: yellow;
+}

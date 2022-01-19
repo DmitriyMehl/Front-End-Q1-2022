@@ -1,0 +1,36 @@
+html {
+  font-size: 62.5%;
+  /* // 16px */
+  /*  x = 10* 100 / 16 */
+}
+/* Header */
+body {
+  font-size: 2rem;
+  background-color: gray;
+  color: white;
+}
+/* Main content */
+
+div {
+  width: 50rem;
+  /* margin: 0 auto; */
+}
+
+.box-one {
+  background-color: beige;
+  color: black;
+  border: solid #008000 1.5rem;
+  padding: 2rem;
+  /* margin: 2rem; */
+}
+/* Footer */
+.box-two {
+  background-color: azure;
+  color: red;
+  border: solid rgb(210, 44, 232) 1.5rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  /* box-sizing: content-box; */
+}
+
+/* 500px + 20px + 20px + 15px +15px */
