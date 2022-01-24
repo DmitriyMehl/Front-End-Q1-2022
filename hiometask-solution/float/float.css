@@ -1,0 +1,9 @@
+.float-left {
+  float: left;
+  margin: 1rem;
+}
+
+p {
+  font-size: 150%;
+  padding: 1rem;
+}

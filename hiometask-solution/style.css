@@ -6,31 +6,36 @@ body {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
 }
-
-/* шапка */
-
 .header {
-  /* min-height: 5rem; */
+  min-height: 5rem;
   font-family: "Open Sans", sans-serif;
 }
-
 nav ul {
   text-align: right;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 500;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  /* padding: 1rem 0; */
 }
+
 nav li {
   list-style-type: none;
   display: inline;
+  text-align: right;
   margin-left: 2rem;
   margin-right: 2rem;
-  /* background-color: beige; */
 }
 
-/* Клякса */
+.section-width {
+  /* min-width: 50vw; */
+  /* max-width: 80vw; */
+  margin: 0 auto;
+}
+.section {
+  min-height: 90vh;
+}
+
+/* energy-color */
 
 .energy-color {
   background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/cc54848d24ec5cb1be8c9d83/874-min.jpg);
@@ -87,15 +92,13 @@ nav li {
 }
 
 /* onkel */
-.section {
-  height: 80vh;
-}
+
 .onkel {
-  background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/cdf7444d030e541f8dbca0fc/16951-min.jpg");
-  background-position: 0 50%;
-  background-repeat: no-repeat;
+  background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/cdf7444d030e541f8dbca0fc/16951-min.jpg);
   background-size: contain;
+  background-position: 0 50%;
   background-color: #f2f2f2;
+  background-repeat: no-repeat;
 
   padding-top: 10%;
   padding-left: 60%;
@@ -118,8 +121,9 @@ nav li {
   font-family: "Roboto Condensed", sans-serif;
   margin-bottom: 30px;
 }
+
 .onkel .content {
-  font-size: 1.125;
+  font-size: 1.125rem;
   line-height: 130%;
   margin-bottom: 25px;
 }
@@ -134,10 +138,10 @@ nav li {
 
 .onkel .button {
   padding: 10px 50px;
-  background-color: #333333;
+  background-color: black;
   color: white;
   text-transform: uppercase;
-  font-family: "Oswald", sans-serif;
+  font-family: Oswald, sans-serif;
   letter-spacing: 3px;
   font-weight: 700;
   text-decoration: none;
@@ -146,28 +150,167 @@ nav li {
 /* lemon */
 
 .lemon {
-  background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/060307c9979a596fa8c3a36d/pexelsphoto2208836.jpeg");
-  background-position: right top;
+  background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/060307c9979a596fa8c3a36d/pexelsphoto2208836.jpeg);
   background-size: 50%;
+  background-position: right top;
   background-repeat: no-repeat;
-
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   padding-top: 15%;
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
   padding-left: 10%;
   padding-right: 60%;
 }
+
+.lemon .mini-title {
+  font-size: 1.25rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.lemon .title {
+  color: rgb(241, 197, 14);
+  font-family: Roboto, sans-serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.lemon .content {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 65px;
+}
+
+.lemon .button {
+  background-color: rgb(241, 197, 14);
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* pizza */
+
+.pizza {
+  background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/e5e1daf96a4558d495356b37/2777964d-min.jpg);
+  /* background-position: 50% 50%; */
+  background-position: center;
+  background-size: cover;
+  padding: 20px 10%;
+}
+
+.pizza .title {
+  font-family: Oswald, sans-serif;
+  font-size: 4rem;
+  color: rgb(219, 84, 90);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+.pizza > h1 > span {
+  display: block;
+}
+.pizza .border {
+  border-bottom: 10px solid rgb(219, 84, 90);
+  margin-bottom: 25px;
+  width: 10ch;
+}
+
+.pizza .source {
+  margin-bottom: 35px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.pizza .source a {
+  text-decoration: underline;
+  color: black;
+  font-weight: 700;
+}
+
+.pizza .button {
+  padding: 10px 50px;
+  background-color: rgb(219, 84, 90);
+  color: white;
+  text-transform: uppercase;
+  font-family: Oswald, sans-serif;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* .icecream */
+
+.icecream {
+  background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/d53c730b69465a7aa2b026a4/stack-ice-cream-scoops-cone_23-2148150207.jpg);
+  background-size: contain;
+  background-position: 0 50%;
+  background-color: #f2f2f2;
+  background-repeat: no-repeat;
+  padding: 8%;
+  padding-left: 50%;
+}
+.icecream .wrapper {
+  width: 400px;
+  padding: 30px;
+  background-color: white;
+}
+
+.icecream .title {
+  font-family: "Roboto Slab", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #fda700;
+  margin-bottom: 20px;
+}
+
+.icecream .content {
+  margin-bottom: 20px;
+  font-size: 1.125rem;
+}
+
+.icecream .source {
+  margin-bottom: 35px;
+}
+
+.icecream .source a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.icecream .button {
+  padding: 10px 20px;
+  background-color: #fda700;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 /* footer */
 
 .footer {
   background-color: #333333;
   color: white;
   height: 10rem;
-  border-radius: 0 0 2rem 2rem;
+  border-radius: 0 0 1rem 1rem;
 }
 
-.footer > p {
+footer p {
   font-family: "Open Sans", sans-serif;
   text-align: center;
   padding-top: 3rem;
