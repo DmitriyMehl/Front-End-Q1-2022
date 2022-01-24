@@ -1,0 +1,53 @@
+.energy-color {
+  background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/cc54848d24ec5cb1be8c9d83/874-min.jpg);
+  background-position: right top;
+  background-size: cover;
+  padding: 100px 0 100px 100px;
+}
+
+.energy-color_title {
+  font-size: 36px;
+  color: #111;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  line-height: 130%;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.energy-color_title__blue {
+  display: block;
+  color: #179bd6;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 150px;
+  text-transform: uppercase;
+  line-height: 130%;
+}
+
+.energy-color_description {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+  width: 50%;
+}
+
+.energy-color_description a {
+  font-style: normal;
+  text-decoration: none;
+}
+
+.energy-color_description .my-lovely-button {
+  color: #fff;
+  background-color: #179bd6;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 30px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
