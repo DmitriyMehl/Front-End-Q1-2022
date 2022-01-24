@@ -1,3 +1,37 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+
+/* шапка */
+
+.header {
+  /* min-height: 5rem; */
+  font-family: "Open Sans", sans-serif;
+}
+
+nav ul {
+  text-align: right;
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /* padding: 1rem 0; */
+}
+nav li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  /* background-color: beige; */
+}
+
+/* Клякса */
+
 .energy-color {
   background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/cc54848d24ec5cb1be8c9d83/874-min.jpg);
   background-position: right top;
@@ -50,4 +84,19 @@
   font-weight: bolder;
   letter-spacing: 2px;
   text-decoration: none;
+}
+
+/* footer */
+
+.footer {
+  background-color: #333333;
+  color: white;
+  height: 10rem;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.footer > p {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding-top: 3rem;
 }
