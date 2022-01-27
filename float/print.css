@@ -1,0 +1,23 @@
+@media print {
+  @page {
+    margin: 2.5cm;
+  }
+  /* body {
+    margin: 25mm;
+  } */
+  p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16pt;
+  }
+
+  img {
+    /* width: 100px; */
+    display: none;
+  }
+
+  header,
+  aside,
+  footer {
+    display: none;
+  }
+}

@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg-color: brown;
+  --header-bg-color: #eb7971;
+  --primary-bg-color: #33b5e5;
+  --secondary-bg-color: #0099cc;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.wrapper {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--main-bg-color);
+  color: white;
+  padding: 1.5rem;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  /* display: inline; */
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: var(--primary-bg-color);
+  color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.menu li:hover {
+  background-color: var(--secondary-bg-color);
+}
+
+.faq {
+  background-color: var(--primary-bg-color);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+footer {
+  background-color: var(--secondary-bg-color);
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1.5rem;
+}
+
+/* [class*="col-"]  */
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+aside {
+  padding: 2rem;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-6 {
+  width: 50%;
+}

@@ -42,3 +42,38 @@ footer {
 /* article:after {
   clear: both;
 } */
+
+@media print {
+  @page {
+    margin: 2.5cm;
+  }
+  /* body {
+    margin: 25mm;
+  } */
+  p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16pt;
+    /* background-color: black; */
+  }
+
+  img {
+    /* width: 100px; */
+    display: none;
+  }
+
+  /* header, */
+  aside,
+  footer {
+    display: none;
+  }
+  .header {
+    /* background-color: black; */
+  }
+}
+
+@media (max-width: 600px) {
+  .left,
+  .right {
+    float: none;
+  }
+}
