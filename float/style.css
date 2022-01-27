@@ -1,0 +1,44 @@
+.header {
+  background-color: #a5a5a5;
+  color: white;
+  font-size: 2.5rem;
+  height: 100px;
+  border: yellow 5px solid;
+}
+
+aside {
+  background-color: #e7a8a8;
+  font-size: 20px;
+  width: 150px;
+  border: red 5px ridge;
+  height: 80vh;
+}
+
+img {
+  width: 250px;
+  border: green dashed 5px;
+  margin: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: beige;
+  border: red 5px ridge;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+/* article:after {
+  clear: both;
+} */
